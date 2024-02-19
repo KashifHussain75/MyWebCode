@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Square Box Example</title>
+  <style>
+    
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      margin: 0; 
+    }
+
+    
+    .square-box {
+      width: 100px;
+      height: 100px;
+      background-color: #f0f0f0; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease; 
+    }
+
+    .square-box {
+      width: 100px;
+      height: 100px;
+      background-color: #f0f0f0; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease; 
+    }
+    
+    .box-text {
+      color: #333;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    
+    .square-box:hover {
+      background-color: #ccc; 
+    }
+
+    
+    .square-box:active {
+      background-color: #999; 
+    }
+
+  
+    .square-box:focus {
+      outline: 2px solid blue; 
+    }
+
+    
+    .square-box:visited {
+      color: purple; 
+    }
+
+    
+    .square-box p:first-child {
+      font-style: italic; 
+    }
+
+    
+    .square-box p:last-child {
+      text-decoration: underline; 
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+ 
+  <div class="square-box" tabindex="0">
+    <p class="box-text"> box!</p><br>
+    <p class="box-text">Additional text.</p>
+  </div>
+
+</body>
+</html>
